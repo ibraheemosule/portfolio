@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Navbar = styled.nav`
-  position: relative;
   display: flex;
+  flex: 0 0;
   flex-direction: column;
   flex-basis: ${({ toggle }) => (toggle ? "100px" : "50px")};
   background: ${({ theme }) => theme.theme1.navBgCol};
@@ -11,7 +11,7 @@ export const Navbar = styled.nav`
   max-height: 100vh;
   justify-content: space-between;
   padding: 1rem 0;
-  overflow-x: hidden;
+  overflow: hidden;
   transition: all 0.3s ease-in;
 
   div {

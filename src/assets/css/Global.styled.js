@@ -8,7 +8,10 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
 }
 body {
-    max-width: 1400px;
+    width: 100vw;
+    max-width: 1500px;
+    margin: auto;
+    overflow-x: hidden;
 }
 `;
 

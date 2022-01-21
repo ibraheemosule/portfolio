@@ -1,5 +1,4 @@
 import { Navbar } from "../assets/css/Navbar.styled.js";
-import logo from "../assets/img/letter.png";
 import CallLogo from "../assets/svgs/CallLogo.jsx";
 import EmailLogo from "../assets/svgs/EmailLogo";
 import FacebookLogo from "../assets/svgs/FacebookLogo";
@@ -24,7 +23,6 @@ const Nav = () => {
       onMouseEnter={trueToggler}
       onMouseLeave={falseToggler}
     >
-      {/* <img src={logo} /> */}
       <div>
         <LetterLogo />
       </div>

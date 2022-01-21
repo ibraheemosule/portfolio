@@ -1,12 +1,13 @@
-import { Row } from "../assets/css/Row.styled.js";
+import { LayoutStyle } from "../assets/css/LayoutStyle.styled.js";
 import Nav from "./Navbar";
+import MainBody from "./MainBody";
 
 const Layout = () => {
   return (
-    <Row>
+    <LayoutStyle>
       <Nav />
-      <main>this is the layout</main>
-    </Row>
+      <MainBody />
+    </LayoutStyle>
   );
 };
 
